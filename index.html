@@ -28,6 +28,21 @@ body { font-family: Georgia, serif; background: transparent; padding: 1.5rem 0; 
 .output-box { margin-top: 1rem; padding: 1.2rem 1.8rem; border: 1px solid var(--color-border-tertiary, #eee); border-radius: 8px; font-size: 13px; color: var(--color-text-secondary, #555); line-height: 1.8; white-space: pre-wrap; display: none; font-style: italic; }
 .copy-btn { margin-top: 0.6rem; font-size: 11px; color: var(--color-text-tertiary, #aaa); background: none; border: none; cursor: pointer; letter-spacing: 0.08em; text-transform: uppercase; font-family: Georgia, serif; padding: 0; display: none; }
 .copy-btn:hover { color: var(--color-text-primary, #111); }
+
+@media screen and (min-width: 390px) {
+  .disc-wrap { width: 22vw !important; height: 22vw !important; max-width: 120px !important; max-height: 120px !important; }
+  .disc-label img { max-width: 26vw !important; max-height: 12vw !important; }
+  .disc-label { height: 12vw !important; max-height: 56px !important; }
+  .grid { gap: 5vw 2vw !important; }
+  .header { font-size: 15px !important; }
+  .subheader { font-size: 18px !important; margin-bottom: 2.4rem !important; }
+  .section-label { font-size: 13px !important; }
+  .pill { font-size: 14px !important; padding: 9px 18px !important; }
+  .generate-btn { font-size: 15px !important; padding: 18px !important; }
+  .note-area { font-size: 15px !important; padding: 14px 18px !important; }
+  .count { font-size: 12px !important; }
+  div[style*="padding"] { padding: 2.4rem 2rem 2.4rem !important; }
+}
 </style>
 
 <div style="padding: 2rem 1.6rem 2rem;"><div class="header">Lunamor HQ</div>
